@@ -1,12 +1,13 @@
 import React from "react";
+import '../../index.css';
 
 function Footer() {
 
 return (
   <footer>
             <h2>❤️ Made with love by Sara Barnett</h2>
+            
             <div>
-                
                 <a href="https://github.com/Sarabarnett">
                   <img src="../../assets/images/github-thumbnail.png" alt="github logo"/>
                 </a>
