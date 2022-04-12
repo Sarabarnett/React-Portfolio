@@ -1,29 +1,31 @@
 import React from "react";
 import '../../index.css';
+import EMR from "../../assets/images/homepage-screenshot.jpg";
+
 
 function Portfolio() {
   return(
 
 <main>
-<section id="work"> 
-      <h2>
+<section> 
+      <h3>
         My Work
-      </h2>
+      </h3>
 
-    <div>
-      <div>
-        <img src="../../assets/images/homepage-screenshot.jpg" alt="EMR homepage" />
+      <div className="work">
+      <a href="https://arcane-hamlet-39116.herokuapp.com/">
+        <img src={EMR} alt="EMR homepage" />
+      </a>
         <div>
         <h3>
           <a href="https://arcane-hamlet-39116.herokuapp.com/">EMR</a>
         </h3>
         <p>
-        My first group project web application that creates a fun user experience to search for recipes, generate a grocery list and find grocery stores nearby!
+        EMR is a Full-Stack MERN storage app specifically designed to house all of the confidential health information that you have accumulated over your many years as a patient.
         </p>
         </div>
       </div>
-    </div>
-    </section>
+  </section>
   </main>
   )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import '../../index.css';
+import Avatar from "../../assets/images/sara-avatar-small.png"
 
 
 function About() {
@@ -7,8 +8,11 @@ function About() {
   return(
   <main>
     <div>
-      <h3>Hi, I'm Sara!</h3>
-      <p>
+      <div className="about">
+      <img src={Avatar} alt="avatar icon"/>
+      <h2>Hi, I'm Sara!</h2>
+      </div>
+      <p className="aboutBlurb">
       My name is Sara Barnett, thank you for visiting my portfolio! 
       I'm a Salt Lake City, Utah native and I love to ski, hike, mountain 
       and road bike, read, play with my dog and more recently CODE!! I 

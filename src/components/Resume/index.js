@@ -1,15 +1,21 @@
 import React from "react";
 import '../../index.css';
-
+import resumePDF from "../../assets/resume/Sara-Barnett-resume.pdf";
 
 function Resume() {
 
   return(
     <main>
-      <h2>
+      <h3>
         My Resume
-      </h2>
-      <div>
+      </h3>
+      <div className="resume">
+        <h5 > 
+          Download my&nbsp;
+            <a className="resumeLink" href={resumePDF}>
+             resume!
+            </a>
+        </h5>
         <h4>
           Technologies
         </h4>
@@ -23,9 +29,9 @@ function Resume() {
           <li>
             CSS
           </li>
-          <li1>
+          <li>
             JavaScript
-          </li1>
+          </li>
           </ul>
 
           <h5>

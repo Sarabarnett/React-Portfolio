@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import '../../index.css';
+import FlowerLogo from "../../assets/images/SB-flower-logo-small.png"
+
 
 function Header(props) {
   const {
@@ -10,30 +11,27 @@ function Header(props) {
   } = props;
 
   return(
-   <main>
-     <header>
-       <Link style={{ textDecoration: "none" }} to="/">
-       <img src="../../assets/images/SB-flower-logo-small.png" alt="daisy with SB in the center" />
+     <header className="flex-row">
+       <img src={FlowerLogo} alt="daisy with SB in the center" />
         <h1>Sara Barnett</h1>
-       </Link>
        
+      
        <nav>
-                <ul>
-                    {pages.map(page => (
-                        <li className={`my-2 mx-2 ${page.name === currentPage.name && 'navActive'}`} key={page.name}>
-                            <span onClick={() => {
-                                setCurrentPage(page)
-                            }}
-                        >
-                            {page.name}
-                        </span>
-                        </li>
-                    ))}
-                </ul>
-            </nav>
+          <ul className="flex-row">
+             {pages.map(page => (
+               <li className={`my-2 mx-2 ${page.name === currentPage.name && 'navActive'}`} key={page.name}>
+                <span onClick={() => {
+                    setCurrentPage(page)
+                     }}
+                 >
+                {page.name}
+                </span>
+               </li>
+              ))}
+          </ul>
+        </nav>
 
      </header>
-   </main> 
   )
 };
 

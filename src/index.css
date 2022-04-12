@@ -15,6 +15,27 @@ main {
   padding: 20px 40px;
 }
 
+h2 {
+  font-size: 3.0rem;
+}
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 2.0rem;
+}
+
+h5 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
 header {
   width: 100%;
   min-height: max-content;
@@ -23,35 +44,182 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
+  right: 0;
+  left: 0;
   z-index: 998;
 }
 
-header h1 {
-  padding-top: 40px;
-  color: #ffc947;
-  padding: 10px auto;
-  font-size: 2.0rem;
-  font-weight: bold;
+header img {
+  margin: 10px;
 }
 
+header h1 {
+  margin: auto 20px;
+  color: #ffc947;
+  padding: 10px auto;
+  font-size: 3.75rem;
+  font-weight: bold;
+  align-items: left;
+}
 header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items:flex-start;
   list-style: none;
+}
+
+
+nav li {
+  color:#fff;
+  cursor: pointer;
+  font-size: 2.0rem;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.navActive {
+  color: #ffc947;
+}
+
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.about {
+  margin: 20px 60px;
+}
+
+.about h2 {
+  margin-top: 10px;
+}
+
+.aboutBlurb {
+  font-size: 1.75rem;
+  margin: 40px;
+  padding: 20px;
+  border: #ffc947 solid 5px;
+  border-radius: 15px;
+}
+
+form {
+  width: 40%;
+}
+
+.form {
+  margin:20px auto
+}
+
+.form label {
+  color: #ffdb85;
+	font-weight: 600;
+  font-size: 1.75rem;
+}
+
+button {
+	background: #5e8c7a;
+	border: 0;
+	border-radius: 5px;
+	color: #ffdb85;
+	font-weight: 600;
+  font-size: 1.75rem;
+	margin-top: 30px;
+	padding: 10px 15px;	
+}
+
+input {
+  margin: 10px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+} 
+
+textarea {
+  margin-top: 20px;
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+.resumeLink {
+  margin: 25px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.resume a:hover {
+  background-color: #ffdb85;
+}
+
+.resume h4 {
+  text-decoration: underline #ffdb85;
+  color: #ffc947;
+  margin: 30px 0;
+}
+
+.resume ul {
+  margin: 20px 10px ;
+}
+.resume li {
+  margin-top: 5px;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.work {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work a {
+  text-decoration: none;
+  color:#ffc947;
+}
+
+.work h3 {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.work p {
+  font-size: 1.75rem;
+  margin: 40px 60px;
+  padding: 20px;
+  border: #ffc947 solid 5px;
+  border-radius: 15px;
 }
 
 footer {
   width: 100%;
   min-height: 120px;
+  margin-top: 40px;
+  bottom: 0;
+  position: fixed;
   background-color: #5e8c7a;
   color: #ffc947;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   z-index: 999;
+}
+
+.thumbnail {
+  margin: 10px 20px;
+}
+
+footer div {
+  margin: auto;
+  justify-content: space-around;
 }

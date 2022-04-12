@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {validateEmail } from '../../utils/helpers';
+import '../../index.css';
 
 
 
@@ -39,8 +40,8 @@ function ContactForm() {
 
   return (
     <main>
-    <section>
-      <h1>Contact me</h1>
+    <section className="form">
+      <h3>Want to get in touch? Reach out below!</h3>
       <form id="contact-form" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
