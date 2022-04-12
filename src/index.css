@@ -13,6 +13,9 @@ body {
 
 main {
   padding: 20px 40px;
+  min-height: auto;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 h2 {
