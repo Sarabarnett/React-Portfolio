@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.e919b11c.css",
-    "main.js": "/React-Portfolio/static/js/main.bc99b91e.js",
-    "static/js/787.2079c3ea.chunk.js": "/React-Portfolio/static/js/787.2079c3ea.chunk.js",
+    "main.js": "/React-Portfolio/static/js/main.7552b5ba.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/homepage-screenshot.jpg": "/React-Portfolio/static/media/homepage-screenshot.73194b6534f3539fc7f2.jpg",
     "static/media/sara-avatar-small.png": "/React-Portfolio/static/media/sara-avatar-small.44e4b16bf54a5f6f0982.png",
     "static/media/Sara-Barnett-resume.pdf": "/React-Portfolio/static/media/Sara-Barnett-resume.e8fc459afe5a6e218369.pdf",
     "static/media/SB-flower-logo-small.png": "/React-Portfolio/static/media/SB-flower-logo-small.e475a973aa00ea0556f2.png",
     "index.html": "/React-Portfolio/index.html",
     "main.e919b11c.css.map": "/React-Portfolio/static/css/main.e919b11c.css.map",
-    "main.bc99b91e.js.map": "/React-Portfolio/static/js/main.bc99b91e.js.map",
-    "787.2079c3ea.chunk.js.map": "/React-Portfolio/static/js/787.2079c3ea.chunk.js.map"
+    "main.7552b5ba.js.map": "/React-Portfolio/static/js/main.7552b5ba.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e919b11c.css",
-    "static/js/main.bc99b91e.js"
+    "static/js/main.7552b5ba.js"
   ]
 }
