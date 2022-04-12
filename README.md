@@ -12,6 +12,13 @@ https://sarabarnett.github.io/React-Portfolio/
 # Screenshots
 Below are screenshots of the deployed portfolio.
 
+![Homepage/About](./src/assets/images/about-screenshot.jpg)
+
+![Portfolio](./src/assets/images/portfolio-screenshot.jpg)
+
+![Resume](./src/assets/images/resume-screenshot.jpg)
+
+![Contact form](./src/assets/images/contact-screenshot.jpg)
 
 # Contributors
 Sara Barnett is the sole contributor to this project.
